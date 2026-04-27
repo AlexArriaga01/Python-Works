@@ -8,7 +8,9 @@ for i in range(5):
     LS.append(MS)
     e=(LS[i+1]-LS[i])/(LS[i+1])
     Le.append(e)
+
 D={"f(-0.25)":LS,
     "Error":Le}
 df=pd.DataFrame(D)
+
 print(df.iloc[1:5][:])

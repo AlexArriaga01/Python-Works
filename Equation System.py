@@ -13,8 +13,8 @@ for i in range(1,n+1):
     M.append(F)
 arr_M=np.array(M)
 
-print("Ingrese la matriz de resultados:")
 R=[]
+print("Ingrese la matriz de resultados:")
 for i in range(n):
     F=[]
     x=int(input(f"C_{i}: "))

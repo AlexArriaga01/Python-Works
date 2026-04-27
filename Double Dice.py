@@ -2,7 +2,7 @@ import numpy as np
 from numpy import random as rn
 import pandas as pd
 import matplotlib.pyplot as pl
-
+#Definicón de variables
 n=int(input("Número de tiros:"))
 m=int(input("Numero de juegos:"))
 #Tirada de dos dados n veces

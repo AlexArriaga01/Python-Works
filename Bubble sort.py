@@ -44,12 +44,14 @@ if selec==0:
     for i in range(n):
         Y.append("")
     BuenOrden(ConjuntoRandom(n),Y)
+
 elif selec==1:
     n=int(input("Ingrese la cardinalidad del conjunto >>"))
     Y=[]
     for i in range(n):
         Y.append("")
     BuenOrden(ConjuntoManual(n),Y)
+
 elif selec==2:
     df = pd.read_excel('Bubble.xlsx')
     col1 = df['Indice'].astype(str).tolist()
@@ -61,6 +63,7 @@ elif selec==2:
     'Ponderacion': col2
     })
     new_df.to_excel('Bubble_new.xlsx', index=False)
+    
 else:
     print("Selección inválida")
 
