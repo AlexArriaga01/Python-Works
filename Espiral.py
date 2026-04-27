@@ -6,7 +6,7 @@ from sympy import sympify,GoldenRatio
 def S():
     expr_a=ent_a.get()
     alpha=float(sympify(expr_a, locals={"phi": GoldenRatio}))
-    n=1000
+    n=1024
 
     X=np.linspace(0,n,n+1)
     Y=np.linspace(0,n,n+1)

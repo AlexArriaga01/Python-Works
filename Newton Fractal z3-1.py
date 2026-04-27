@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 
 def f(z):
@@ -25,7 +24,7 @@ for z in Z:
 
     if abs(z-(1+0j))<0.5*10**(-8):
         plt.scatter(z0.real,z0.imag,s=5,c='red')
-        print('Red',"\t",z,"\t",z0)
+        print('Red',"\t",z,"\t \t \t",z0)
 
     elif abs(z-(-1/2+np.sqrt(3)/2j))<0.5*10**(-8):
         plt.scatter(z0.real,z0.imag,s=5,c='blue')

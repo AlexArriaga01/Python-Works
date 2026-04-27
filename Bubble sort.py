@@ -35,7 +35,7 @@ def BuenOrden(X,Y):
 print("Ingrese:")
 print("0 Para generar un conjunto random")
 print("1 Para generar un conjunto manualmente")
-print("2 Para usar pandazzz")
+print("2 Para modificar un .xlsx")
 selec=int(input(">>"))
 
 if selec==0:

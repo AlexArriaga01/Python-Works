@@ -43,7 +43,7 @@ for j in range(m):
             paso=0
         Pasos.append(paso)
     LPasos.append(Pasos)
-#Display del histograma de los dados
+#Display del histograma del la suma de los dados
 for Table in LTable:
     pl.hist(Table["Suma"],bins=22)
     pl.xticks([2,3,4,5,6,7,8,9,10,11,12])
