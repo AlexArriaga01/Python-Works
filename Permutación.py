@@ -24,6 +24,6 @@ df_D_T=df_D.transpose()
 for i in range(n):
     for j in range(n):
         if df_D_T.iloc[i,j]!="":
-            df_D_T.iloc[i,j]=df_D_T.index[i]+" vs "+df_D_T.columns[j]
+            df_D_T.iloc[i,j]=df_D_T.index[i] + " vs " + df_D_T.columns[j]
 
 print(df_D_T)

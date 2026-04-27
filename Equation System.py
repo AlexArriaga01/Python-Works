@@ -4,7 +4,7 @@ import pandas as pd
 n=int(input("Número de variables: "))
 
 M=[]
-print("Ingrese los coeficientes de:")
+print("Ingrese la matriz de coeficientes por filas:")
 for i in range(1,n+1):
     F=[]
     for j in range(1,n+1):

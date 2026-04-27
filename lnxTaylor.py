@@ -1,7 +1,5 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-import math as ma
 
 X=np.linspace(0,2,100)
 T=np.array([0])
